@@ -1,6 +1,4 @@
 # __init__.py configs
-import io
-from io import BytesIO
 from patterns import *
 from PIL import Image, ImageDraw
 from PIL.ImageFont import FreeTypeFont
@@ -56,11 +54,9 @@ def _addDate(og: Image.Image, username: str) -> Image.Image:
     actualDate = "{wknd} at {hour}:{min} {ampm}".format(wknd=x.strftime(
         "%A"), min=x.strftime("%M"), hour=x.strftime("%I"), ampm=x.strftime("%p"))
 
-    usernamePixels = len(username)*9
-
+    usernamePixels = (len(username)*9)
     d.text((THUMBNAILSIZE+15+usernamePixels, 7),
            actualDate, font=DEFAULTFONT.font_variant(size=12), fill=(106, 109, 113))
-
     return og
 
 

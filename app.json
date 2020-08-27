@@ -1,0 +1,16 @@
+{
+    "name": "discordmsgapi",
+    "description": "🤡 An API that provides fake screenshots of discord messages ",
+    "repository": "https://github.com/drapaiton/discordmsgapi/",
+    "env": {
+        "PRODUCTION": {
+            "description": "published online?.",
+            "value": "True"
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
