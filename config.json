@@ -1,7 +1,0 @@
-{
-    "domain": "https://discordmsgapi.herokuapp.com/",
-    "title": "Discord Msg API",
-    "description": "Fake Discord Screenshot Generator~",
-    "port": 3300,
-    "debug": false
-}

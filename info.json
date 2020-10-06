@@ -1,0 +1,8 @@
+{
+	"author": ["https://github.com/drapaiton"],
+	"description": "🤡 A Discord.py Cog that provides fake screenshots of discord messages ",
+	"short": "imagedis",
+	"install_msg": "deepfake your imgs lmao",
+	"tags": ["fake", "screenshots", "discord", "fun"],
+	"type": "COG"
+}
